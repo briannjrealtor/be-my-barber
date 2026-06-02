@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0E1621;
+  --gold: #C9963A;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--navy);
+  color: white;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
