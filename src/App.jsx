@@ -3,7 +3,7 @@ import Benefits from "./components/Benefits";
 import HowItWorks from "./components/HowItWorks";
 import WhyClients from "./components/WhyClients";
 import BarberApplication from "./components/BarberApplication";
-import ClientWaitlist from "./components/ClientWaitlist";
+import ClientWaitList from "./components/ClientWaitList";
 import ThankYouBarber from "./components/ThankYouBarber";
 import ThankYouClient from "./components/ThankYouClient";
 import ForBarbers from "./components/ForBarbers";
@@ -30,7 +30,7 @@ function App() {
       <HowItWorks />
       <WhyClients />
       <BarberApplication />
-      <ClientWaitlist />
+      <ClientWaitList />
     </>
   );
 }
